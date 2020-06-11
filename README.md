@@ -2,9 +2,10 @@
 
 ## 任务
 
-- 参考example中的CourseWareA，在assignment中构建CourseWareB；并在tests下构建相应的单元测试test_assignment.py
+- 参考example中的CourseWareA，在assignment中构建CourseWareB；并在tests下完善相应的单元测试
 - 用CourseWareB处理data.csv，并生成相应的状态解析result.csv
-- 向我提一个Pull Request，并根据Code Review进行相应的修改
+- 向我提一个Pull Request，PR应该能够通过CI
+- 如果在Code Review出现了评论，请进行相应的修改
 
 良好的代码风格会是加分项。
  - 我们推荐使用[black](https://pypi.org/project/black/)进行代码格式美化
