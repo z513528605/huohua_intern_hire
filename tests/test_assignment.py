@@ -23,7 +23,7 @@ class AssignmentTest(unittest.TestCase):
         self.assertEqual(target_state, result)
 
     def test_right_ans(self):
-        stream = [(1, 2, 0, 3)]
+        stream = (1, 2, 0, 3)
         self.assertTrue(CourseWareB.is_user_right(stream))
 
 
