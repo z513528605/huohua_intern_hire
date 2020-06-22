@@ -11,7 +11,7 @@ class AssignmentTest(unittest.TestCase):
         # GIVEN
         raw_state = {
             "commonComponentState": {
-                "4cb5f12f9e164c6c545a55202bc818f2": {"answer": {"0": 1, "1": 2, "3": 3}}
+                "4cb5f12f9e164c6c545a55202bc818f2": {"answer": [1, 2, 0, 3]}
             },
         }
 
